@@ -19,4 +19,4 @@ const templateSlice = createSlice({
 })
 
 export const { todoAdded, todoToggled } = templateSlice.actions
-export default templateSlice.reducer
+export default templateSlice
