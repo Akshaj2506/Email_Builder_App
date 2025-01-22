@@ -2,7 +2,7 @@
    "rewrites": [
       {
          "source": "/api/:path*",
-         "destination": "https://hospital-food-management-api.vercel.app/api/:path*"
+         "destination": "https://email-builder-api-silk.vercel.app/api/:path*"
       }
    ]
 }
