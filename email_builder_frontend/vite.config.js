@@ -8,7 +8,8 @@ export default defineConfig({
     port: 5173,
     proxy: {
       '/api': {
-        target: "http://localhost:5000/api",
+        // target: "http://localhost:5000/api",
+        target: "https://email-builder-api-silk.vercel.app/api",
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api/, ''),
       },
